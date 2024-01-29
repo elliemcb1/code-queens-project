@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 9%;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* #Header */
+header{
+    background-color:#060327;
+    height: 110px;
+    width: 100%;
+    border-bottom: solid rgb(66, 66, 66);
+    margin: 0;
+    position: fixed;
+    top:0;
+    z-index: 3;
+}
+
+header > nav{
+    display: flex;
+    align-items: center;
+
+}
+
+header > nav > ul{
+    display: flex;
+    width: 100%;
+    justify-content: right;
+}
+
+header > nav > ul > li{
+    list-style: none;
+    margin-right: 3%;
+}
+
+header > nav > ul > li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 24px;
+}
+
+header > nav > ul > li a:hover{
+    font-weight: bold;
+}
+
+.logo{
+    max-height: 100px;
+}
+
+/* adding active class */
+
+.active{
+    text-decoration: underline;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+footer{
+    border-top: solid rgb(66, 66, 66);
+    background-color: #060327;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 0;
+
+}
+
+.copyrights{
+    color: white;
+}
+
+
+.FooterSectionOne{
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 5%;
+    color: white;
+
+}
+
+.FooterSectionHead{
+    margin-bottom: 10px;
+    font-size: 45px;
+}
+
+.FooterSectionTwo{
+    margin-top: 100px;
+    width: 40%;
+    margin: auto;
+    width: 50%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+.FooterSectionWrap{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
